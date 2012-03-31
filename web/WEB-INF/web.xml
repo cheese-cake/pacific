@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>PacEpicsDBR</servlet-name>
+        <servlet-class>org.cns.pacific.server.PacEpicsDBRServiceImpl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EpicsService</servlet-name>
+        <servlet-class>org.cns.pacific.server.epics.EpicsServiceImpl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EpicsServiceClientMagnet</servlet-name>
+        <servlet-class>org.cns.pacific.server.EpicsServiceClientMagnetImpl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PacEpicsDBR</servlet-name>
+        <url-pattern>/org.cns.pacific.Main/pacepicsdbr</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EpicsService</servlet-name>
+        <url-pattern>/org.cns.pacific.Main/epicsservice</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EpicsServiceClientMagnet</servlet-name>
+        <url-pattern>/org.cns.pacific.Main/epicsserviceclientmagnet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>welcomeGWT.html</welcome-file>
+    </welcome-file-list>
+</web-app>

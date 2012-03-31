@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document   : monitorChannel.xml
+    Created on : 2011/05/31, 20:02
+    Author     : ota
+    Description:
+        Purpose of the document follows.
+-->
+<root>
+    <device name="DC31" type="Satou">
+        <ch id="0">
+            <pv name="MonVolCalc">DC31HV1:hvMonVolCalc</pv>
+            <pv name="SupCur">DC31HV1:hvSupCur</pv>
+            <pv name="MonCurCalc">DC31HV1:hvMonCurCalc</pv>
+            <pv name="Sup">DC31HV1:hvSup</pv>
+            <pv name="SetBt">DC31HV1:hvSetBt</pv>
+            <pv name="Changed">DC31HV1:hvChangeFinishSelect</pv>
+        </ch>   
+        <ch id="2">
+            <pv name="MonVolCalc">DC31HV2:hvMonVolCalc</pv>
+            <pv name="SupCur">DC31HV2:hvSupCur</pv>
+            <pv name="MonCurCalc">DC31HV2:hvMonCurCalc</pv>
+            <pv name="Sup">DC31HV2:hvSup</pv>
+            <pv name="SetBt">DC31HV2:hvSetBt</pv>
+            <pv name="Changed">DC31HV2:hvChangeFinishSelect</pv>
+        </ch>   
+    </device>
+    <device name="DC32" type="Satou">
+        <ch id="0">
+            <pv name="MonVolCalc">DC32HV1:hvMonVolCalc</pv>
+            <pv name="SupCur">DC32HV1:hvSupCur</pv>
+            <pv name="MonCurCalc">DC32HV1:hvMonCurCalc</pv>
+            <pv name="Sup">DC32HV1:hvSup</pv>
+            <pv name="SetBt">DC32HV1:hvSetBt</pv>
+            <pv name="Changed">DC32HV1:hvChangeFinishSelect</pv>
+        </ch>   
+        <ch id="2">
+            <pv name="MonVolCalc">DC32HV2:hvMonVolCalc</pv>
+            <pv name="SupCur">DC32HV2:hvSupCur</pv>
+            <pv name="MonCurCalc">DC32HV2:hvMonCurCalc</pv>
+            <pv name="Sup">DC32HV2:hvSup</pv>
+            <pv name="SetBt">DC32HV2:hvSetBt</pv>
+            <pv name="Changed">DC32HV2:hvChangeFinishSelect</pv>
+        </ch>   
+    </device>
+    <device name="FH71" type="Satou">
+        <ch id="0">
+            <pv name="MonVolCalc">FH71HV1:hvMonVolCalc</pv>
+            <pv name="SupCur">FH71HV1:hvSupCur</pv>
+            <pv name="MonCurCalc">FH71HV1:hvMonCurCalc</pv>
+            <pv name="Sup">FH71HV1:hvSup</pv>
+            <pv name="SetBt">FH71HV1:hvSetBt</pv>
+            <pv name="Changed">FH71HV1:hvChangeFinishSelect</pv>
+        </ch>   
+        <ch id="2">
+            <pv name="MonVolCalc">FH71HV2:hvMonVolCalc</pv>
+            <pv name="SupCur">FH71HV2:hvSupCur</pv>
+            <pv name="MonCurCalc">FH71HV2:hvMonCurCalc</pv>
+            <pv name="Sup">FH71HV2:hvSup</pv>
+            <pv name="SetBt">FH71HV2:hvSetBt</pv>
+            <pv name="Changed">FH71HV2:hvChangeFinishSelect</pv>
+        </ch>   
+    </device>
+    <device name="DC72" type="Satou">
+        <ch id="0">
+            <pv name="MonVolCalc">FH72HV1:hvMonVolCalc</pv>
+            <pv name="SupCur">FH72HV1:hvSupCur</pv>
+            <pv name="MonCurCalc">FH72HV1:hvMonCurCalc</pv>
+            <pv name="Sup">FH72HV1:hvSup</pv>
+            <pv name="SetBt">FH72HV1:hvSetBt</pv>
+            <pv name="Changed">FH72HV1:hvChangeFinishSelect</pv>
+        </ch>   
+        <ch id="2">
+            <pv name="MonVolCalc">FH72HV2:hvMonVolCalc</pv>
+            <pv name="SupCur">FH72HV2:hvSupCur</pv>
+            <pv name="MonCurCalc">FH72HV2:hvMonCurCalc</pv>
+            <pv name="Sup">FH72HV2:hvSup</pv>
+            <pv name="SetBt">FH72HV2:hvSetBt</pv>
+            <pv name="Changed">FH72HV2:hvChangeFinishSelect</pv>
+        </ch>   
+    </device>
+</root>
+    

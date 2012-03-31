@@ -1,0 +1,60 @@
+/* 
+    Document   : pacific
+    Created on : 2011/06/02, 3:50:00
+    Author     : ota
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    font-size: 80%;
+}
+
+.gwt-Label-goodState {
+    width: 50px;
+    background-color: green;
+}
+.gwt-Label-alertState {
+    width: 50px;
+    background-color: khaki;
+}
+
+.gwt-Label-badState {
+    width: 50px;
+    background-color: indianred;
+}
+
+.my-th {
+    background-color: lightblue;
+    border-bottom-color: blue;
+    border-bottom-width: 2px;
+    border-top-color: blue;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    margine: 1px 1px 1px 1px;
+    text-align: center;
+    color: snow;
+    font-weight: bold;
+}
+
+.my-tr {
+    
+}
+
+.my-tr-odd {
+    background-color: lemonchiffon;
+}
+
+.my-tr-even{
+    
+}
